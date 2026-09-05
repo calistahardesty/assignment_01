@@ -1,4 +1,1 @@
-Write your reflection here.
-
-See reflection.md for what makes a good reflection — be specific, use the
-terminology from class, and make it actionable.
+I learned how bill.py's four functions get reused across console.py, explore.ipynb, and dashboard.py, and saw firsthand why unit tests run instantly while integration tests are slower. I also learned that python tests/test_unit.py failed with ModuleNotFoundError because it skips conftest.py's sys.path setup, while python -m pytest works correctly. Since everything passed on my first attempt, I never used the VS Code debugger, so I still lack practice setting breakpoints and reading the VARIABLES panel.
